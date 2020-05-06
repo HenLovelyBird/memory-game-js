@@ -1,3 +1,7 @@
+#score {
+  text-align: center;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
