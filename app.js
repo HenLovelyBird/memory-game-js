@@ -61,7 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
             card.setAttribute('src', 'images/blank.png')
             card.setAttribute('data-id', i)
             // card.addEventListener('click', flipCard)
-
+            grid.appendChild(card)
         }
-    }
+    };
+    createBoard();
 })
